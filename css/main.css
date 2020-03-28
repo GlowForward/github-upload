@@ -1,0 +1,641 @@
+@charset "UTF-8";
+body {
+  background-color: #1d1b1b;
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  color: #f5f5f5;
+}
+
+header {
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 147px;
+  position: fixed;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav {
+  width: 86%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header nav .logo {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+header nav ul {
+  float: right;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 85px 0 0 0;
+  padding: 0;
+}
+
+header nav ul li {
+  color: #f5f5f5;
+  font-family: "Verdana";
+  font-size: 1em;
+}
+
+header nav ul li a {
+  margin-right: 92px;
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav ul li a img {
+  width: 77px;
+  height: 21.4px;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.top {
+  background-image: url("/images/top.png");
+  width: 100%;
+  height: 1080px;
+  background-position: right -5% top;
+}
+
+.top .top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 71%;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top .banner-container {
+  width: 100%;
+  margin: 460px 0;
+}
+
+.top h1 {
+  font-family: "Verdana";
+  font-weight: bold;
+  font-size: 3vw;
+  margin-bottom: 0;
+  text-shadow: -5px 1px 7px rgba(0, 0, 0, 0.94);
+}
+
+.top h3 {
+  font-family: "Segoe UI";
+  font-weight: 300;
+  font-size: 1.56vw;
+  margin-top: 0;
+  margin-left: 5px;
+  text-shadow: -5px 1px 7px rgba(0, 0, 0, 0.94);
+}
+
+.about {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+}
+
+.about .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about .about-container .about-block-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 147px;
+}
+
+.about .about-container .about-block-container .about-img-container {
+  height: 678px;
+  width: 50%;
+}
+
+.about .about-container .about-block-container .about-img-container img {
+  height: 524px;
+  width: 524px;
+  margin-top: 105px;
+  margin-left: 35px;
+}
+
+.about .about-container .about-block-container .about-para-container {
+  height: 678px;
+  width: 50%;
+  /* これを縦中央配置にするため */
+  position: relative;
+}
+
+.about .about-container .about-block-container .about-para-container h3 {
+  font-family: "Verdana";
+  font-size: 43px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+.about .about-container .about-block-container .about-para-container p {
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 300;
+  /* これを縦中央配置にするため */
+  display: block;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.services {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+}
+
+.services .service-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1356px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.services .service-container .service-block-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 147px;
+}
+
+.services .service-container .service-block-container .service-para-container {
+  height: 678px;
+  width: 50%;
+  /* これを縦中央配置にするため */
+  position: relative;
+}
+
+.services .service-container .service-block-container .service-para-container h3 {
+  font-family: "Verdana";
+  font-size: 43px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+.services .service-container .service-block-container .service-para-container p {
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 300;
+  /* これを縦中央配置にするため */
+  display: block;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.services .service-container .service-block-container .service-img-container {
+  height: 678px;
+  width: 50%;
+  /* imgをセンタリングする*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .service-container .service-block-container .service-img-container img {
+  height: 324px;
+  width: 307px;
+  margin-left: 240px;
+}
+
+.work {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+}
+
+.work .work-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1356px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.work .work-container .work-block-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 147px;
+}
+
+.work .work-container .work-block-container .work-img-container {
+  height: 678px;
+  width: 50%;
+}
+
+.work .work-container .work-block-container .work-img-container img {
+  height: 524px;
+  width: auto;
+  margin-top: 105px;
+  margin-left: 35px;
+}
+
+.work .work-container .work-block-container .work-para-container {
+  height: 678px;
+  width: 50%;
+  /* ｐを縦中央配置にするため */
+  position: relative;
+}
+
+.work .work-container .work-block-container .work-para-container p {
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 300;
+  /* これを縦中央配置にするため */
+  display: block;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.profile {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+}
+
+.profile .profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1356px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile .profile-container .profile-img-container {
+  width: 100%;
+  height: 460px;
+  text-align: center;
+}
+
+.profile .profile-container .profile-img-container img {
+  width: 364px;
+  height: 327px;
+  border-radius: 50%;
+}
+
+.profile .profile-container .profile-para-container {
+  width: 60%;
+  height: 435px;
+  margin: 0 auto;
+}
+
+.profile .profile-container .profile-para-container p {
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer {
+  height: 480px;
+  width: 100%;
+}
+
+footer .exposures {
+  text-align: center;
+}
+
+footer .exposures .facebook-icon {
+  height: 90px;
+  width: 90px;
+}
+
+footer .exposures .facebook-icon:hover {
+  opacity: 0.4;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+footer .exposures .linkedin-icon {
+  height: 90px;
+  width: 90px;
+}
+
+footer .exposures .linkedin-icon:hover {
+  opacity: 0.4;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+footer .copyright {
+  text-align: center;
+}
+
+footer .copyright p {
+  font-size: 14px;
+  color: dimgray;
+  margin-bottom: 4px;
+}
+
+footer .copyright span {
+  font-size: 14px;
+  color: dimgray;
+}
+
+.work-jp {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+}
+
+.work-jp .work-container-jp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1356px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.work-jp .work-container-jp .work-block-container-jp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-top: 147px;
+}
+
+.work-jp .work-container-jp .work-block-container-jp .work-img-container-jp {
+  height: 100%;
+  width: 50%;
+}
+
+.work-jp .work-container-jp .work-block-container-jp .work-img-container-jp img {
+  height: 524px;
+  width: auto;
+  margin-top: 105px;
+  margin-left: 35px;
+}
+
+.work-jp .work-container-jp .work-block-container-jp .work-para-container-jp {
+  height: 678px;
+  width: 50%;
+  /* ｐを縦中央配置にするため */
+  position: relative;
+}
+
+.work-jp .work-container-jp .work-block-container-jp .work-para-container-jp p {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 100;
+  /* これを縦中央配置にするため */
+  display: block;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.profile-jp {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+}
+
+.profile-jp .profile-container-jp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1356px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile-jp .profile-container-jp .profile-img-container-jp {
+  width: 100%;
+  height: 460px;
+  text-align: center;
+}
+
+.profile-jp .profile-container-jp .profile-img-container-jp img {
+  width: 364px;
+  height: 327px;
+  border-radius: 50%;
+}
+
+.profile-jp .profile-container-jp .profile-para-container-jp {
+  width: 60%;
+  height: 435px;
+  margin: 0 auto;
+}
+
+.profile-jp .profile-container-jp .profile-para-container-jp p {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.about-jp {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+}
+
+.about-jp .about-container-jp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1356px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-jp .about-container-jp .about-block-container-jp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 147px;
+}
+
+.about-jp .about-container-jp .about-block-container-jp .about-img-container-jp {
+  height: 678px;
+  width: 50%;
+}
+
+.about-jp .about-container-jp .about-block-container-jp .about-img-container-jp img {
+  height: 524px;
+  width: 524px;
+  margin-top: 105px;
+  margin-left: 35px;
+}
+
+.about-jp .about-container-jp .about-block-container-jp .about-para-container-jp {
+  height: 678px;
+  width: 50%;
+  /* これを縦中央配置にするため */
+  position: relative;
+}
+
+.about-jp .about-container-jp .about-block-container-jp .about-para-container-jp h3 {
+  font-family: "Verdana";
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+.about-jp .about-container-jp .about-block-container-jp .about-para-container-jp p {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 15px;
+  /* これを縦中央配置にするため */
+  display: block;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.services-jp {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+}
+
+.services-jp .service-container-jp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1356px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.services-jp .service-container-jp .service-block-container-jp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 147px;
+}
+
+.services-jp .service-container-jp .service-block-container-jp .service-para-container-jp {
+  height: 678px;
+  width: 50%;
+  /* これを縦中央配置にするため */
+  position: relative;
+}
+
+.services-jp .service-container-jp .service-block-container-jp .service-para-container-jp h3 {
+  font-family: "Verdana";
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+.services-jp .service-container-jp .service-block-container-jp .service-para-container-jp p {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 15px;
+  /* これを縦中央配置にするため */
+  display: block;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.services-jp .service-container-jp .service-block-container-jp .service-img-container-jp {
+  height: 678px;
+  width: 50%;
+  /* imgをセンタリングする*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services-jp .service-container-jp .service-block-container-jp .service-img-container-jp img {
+  height: 324px;
+  width: 307px;
+  margin-left: 240px;
+}
+/*# sourceMappingURL=main.css.map */

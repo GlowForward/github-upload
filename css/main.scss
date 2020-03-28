@@ -1,0 +1,605 @@
+body {
+  background-color: #1d1b1b;
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  color: #f5f5f5;
+}
+
+header {
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 147px;
+  position: fixed;
+  margin: 0;
+  display: flex;
+
+    nav {
+      width: 86%;
+      height: 100%;
+      margin: 0 auto;
+
+        .logo {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            bottom: 0;
+        }
+
+        ul {
+          float: right;
+          list-style: none;
+          display:flex;
+          margin: 85px 0 0 0;
+          padding: 0;
+
+              li {
+                color: #f5f5f5;
+                font-family: "Verdana";
+                font-size: 1em;
+                
+                  a {
+               
+                    margin-right: 92px;
+                    text-decoration: none;
+                    color: inherit;
+
+                     img {
+                       width:77px;
+                       height: 21.4px;
+                     }
+                  }
+              }
+        }
+      }
+}
+
+main {
+  margin: 0 auto;
+}
+
+.top {
+    background-image: url("/images/top.png");
+    width: 100%;
+    height: 1080px;
+    background-position: right -5% top;
+
+      .top-container {
+        display: flex;
+        width: 71%;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+      }
+
+          .banner-container {
+            width: 100%;
+            margin: 460px 0;
+          }
+
+              h1 {
+                font-family: "Verdana";
+                font-weight: bold;
+                font-size: 3vw;
+                margin-bottom: 0;
+                text-shadow: -5px 1px 7px rgba(0, 0, 0, 0.94);
+              }
+
+              h3 {
+                font-family: "Segoe UI";
+                font-weight: 300;
+                font-size: 1.56vw;
+                margin-top: 0;
+                margin-left: 5px;
+                text-shadow: -5px 1px 7px rgba(0, 0, 0, 0.94);
+
+              }
+
+}
+
+.about {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+
+    .about-container {
+      display: flex;
+      width: 1200px;
+      height: 100%;
+      margin: 0 auto;
+      flex-direction: column;
+
+        .about-block-container {
+            display: flex;
+            margin-top: 147px;
+
+              .about-img-container {
+                  height: 678px;
+                  width: 50%;
+
+                  img {
+                    height: 524px;
+                    width: 524px;
+                    margin-top: 105px;
+                    margin-left: 35px;
+                  }
+              }
+              
+              .about-para-container {
+                  height: 678px;
+                  width: 50%;
+                  /* これを縦中央配置にするため */
+                  position: relative;
+
+
+                  h3 {
+                      font-family: "Verdana";
+                      font-size: 43px;
+                      font-weight: 300;
+                      text-align: center;
+                      margin-top: 150px;
+                      margin-bottom: 0;
+                  }
+
+                  p {
+                      font-family: "Segoe UI";
+                      font-size: 24px;
+                      font-weight: 300;
+
+                      /* これを縦中央配置にするため */
+                      display: block;
+                      top: 50%;
+                      position: absolute;
+                      transform: translateY(-50%);
+                  }
+              }
+        }
+    }
+  }
+
+.services {
+    background-color: #1d1b1b;
+    width: 100%;
+    height: 1080px;
+
+    .service-container {
+        display: flex;
+        width: 1356px;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+
+        .service-block-container {
+            display: flex;
+            margin-top: 147px;
+
+              .service-para-container {
+                  height: 678px;
+                  width: 50%;
+
+                  /* これを縦中央配置にするため */
+                  position: relative;
+
+
+                  h3 {
+                      font-family: "Verdana";
+                      font-size: 43px;
+                      font-weight: 300;
+                      text-align: center;
+                      margin-top: 150px;
+                      margin-bottom: 0;
+                  }
+
+                  p {
+                      font-family: "Segoe UI";
+                      font-size: 24px;
+                      font-weight: 300;
+
+                      /* これを縦中央配置にするため */
+                      display: block;
+                      top: 50%;
+                      position: absolute;
+                      transform: translateY(-50%);
+                  }
+              }
+
+              .service-img-container {
+                  height: 678px;
+                  width: 50%;
+
+                  /* imgをセンタリングする*/
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+
+                  img {
+                    height: 324px;
+                    width: 307px;
+                    margin-left: 240px;
+                  }
+
+
+              }
+
+        }
+    }
+}
+
+
+
+
+// workページ
+
+.work {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+
+    .work-container {
+      display: flex;
+      width: 1356px;
+      height: 100%;
+      margin: 0 auto;
+      flex-direction: column;
+
+        .work-block-container {
+            display: flex;
+            margin-top: 147px;
+
+              .work-img-container {
+                  height: 678px;
+                  width: 50%;
+
+                  img {
+                    height: 524px;
+                    width: auto;
+                    margin-top: 105px;
+                    margin-left: 35px;
+                  }
+              }
+              
+              .work-para-container {
+                  height: 678px;
+                  width: 50%;
+                  /* ｐを縦中央配置にするため */
+                  position: relative;
+
+
+                  p {
+                      font-family: "Segoe UI";
+                      font-size: 24px;
+                      font-weight: 300;
+
+                      /* これを縦中央配置にするため */
+                      display: block;
+                      top: 50%;
+                      position: absolute;
+                      transform: translateY(-50%);
+                  }
+              }
+        }
+    }
+  }
+
+.profile {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+
+  .profile-container {
+    display: flex;
+        width: 1356px;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+
+        .profile-img-container {
+            width: 100%;
+            height: 460px;
+            text-align: center;
+
+              img {
+                width: 364px;
+                height: 327px;
+                border-radius: 50%;
+              }
+        }
+
+        .profile-para-container {
+            width: 60%;
+            height: 435px;
+            margin: 0 auto;
+
+
+            p {
+              font-family: "Segoe UI";
+              font-size: 24px;
+              font-weight: 300;
+              text-align: center;
+            }
+        }
+        
+        
+  }
+}
+
+footer {
+  height: 480px;
+  width: 100%;
+
+    .exposures {
+        text-align: center;
+
+        .facebook-icon {
+          height: 90px;
+          width: 90px;
+        }
+
+        .facebook-icon:hover {
+          opacity: 0.4;
+          transition: 0.2s;
+        }
+
+        .linkedin-icon {
+          height: 90px;
+          width: 90px;
+        }
+
+        .linkedin-icon:hover {
+          opacity: 0.4;
+          transition: 0.2s;
+        }
+    }
+
+    .copyright {
+      text-align: center;
+
+        p {
+          font-size: 14px;
+          color: rgb(105, 105, 105);
+          margin-bottom: 4px;
+        }
+
+        span {
+          font-size: 14px;
+          color: rgb(105, 105, 105);
+        }
+    }
+
+}
+
+
+// 日本語ページ
+
+
+.work-jp {
+  background-color: #1d1b1b;
+  width: 100%;
+  height: 1080px;
+
+    .work-container-jp {
+      display: flex;
+      width: 1356px;
+      height: 100%;
+      margin: 0 auto;
+      flex-direction: column;
+
+        .work-block-container-jp {
+            display: flex;
+            height: 100%;
+            margin-top: 147px;
+
+              .work-img-container-jp {
+                  height: 100%;
+                  width: 50%;
+
+                  img {
+                    height: 524px;
+                    width: auto;
+                    margin-top: 105px;
+                    margin-left: 35px;
+                  }
+              }
+              
+              .work-para-container-jp {
+                  height: 678px;
+                  width: 50%;
+                  /* ｐを縦中央配置にするため */
+                  position: relative;
+
+
+                  p {
+                      font-family: "Segoe UI";
+                      font-size: 18px;
+                      font-weight: 100;
+
+                      /* これを縦中央配置にするため */
+                      display: block;
+                      top: 50%;
+                      position: absolute;
+                      transform: translateY(-50%);
+                  }
+              }
+        }
+    }
+  }
+
+  .profile-jp {
+    background-color: #1d1b1b;
+    width: 100%;
+    height: 1080px;
+  
+    .profile-container-jp {
+      display: flex;
+          width: 1356px;
+          height: 100%;
+          margin: 0 auto;
+          flex-direction: column;
+  
+          .profile-img-container-jp {
+              width: 100%;
+              height: 460px;
+              text-align: center;
+  
+                img {
+                  width: 364px;
+                  height: 327px;
+                  border-radius: 50%;
+                }
+          }
+  
+          .profile-para-container-jp {
+              width: 60%;
+              height: 435px;
+              margin: 0 auto;
+  
+  
+              p {
+                font-family: "Segoe UI";
+                font-size: 18px;
+                font-weight: 100;
+                text-align: center;
+              }
+          }
+          
+          
+    }
+  }
+
+  .about-jp {
+    background-color: #1d1b1b;
+    width: 100%;
+    height: 1080px;
+  
+      .about-container-jp {
+        display: flex;
+        width: 1356px;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+  
+          .about-block-container-jp {
+              display: flex;
+              margin-top: 147px;
+  
+                .about-img-container-jp {
+                    height: 678px;
+                    width: 50%;
+  
+                    img {
+                      height: 524px;
+                      width: 524px;
+                      margin-top: 105px;
+                      margin-left: 35px;
+                    }
+                }
+                
+                .about-para-container-jp {
+                    height: 678px;
+                    width: 50%;
+                    /* これを縦中央配置にするため */
+                    position: relative;
+  
+  
+                    h3 {
+                        font-family: "Verdana";
+                        font-size: 32px;
+                        font-weight: 300;
+                        text-align: center;
+                        margin-top: 200px;
+                        margin-bottom: 0;
+                    }
+  
+                    p {
+                        font-family: "Segoe UI";
+                        font-size: 18px;
+                        font-weight: 100;
+                        margin-top: 15px;
+  
+                        /* これを縦中央配置にするため */
+                        display: block;
+                        top: 50%;
+                        position: absolute;
+                        transform: translateY(-50%);
+                    }
+                }
+          }
+      }
+    }
+  
+  .services-jp {
+      background-color: #1d1b1b;
+      width: 100%;
+      height: 1080px;
+  
+      .service-container-jp {
+          display: flex;
+          width: 1356px;
+          height: 100%;
+          margin: 0 auto;
+          flex-direction: column;
+  
+          .service-block-container-jp {
+              display: flex;
+              margin-top: 147px;
+  
+                .service-para-container-jp {
+                    height: 678px;
+                    width: 50%;
+  
+                    /* これを縦中央配置にするため */
+                    position: relative;
+  
+  
+                    h3 {
+                        font-family: "Verdana";
+                        font-size: 32px;
+                        font-weight: 300;
+                        text-align: center;
+                        margin-top: 200px;
+                        margin-bottom: 0;
+                    }
+  
+                    p {
+                        font-family: "Segoe UI";
+                        font-size: 18px;
+                        font-weight: 100;
+                        margin-top: 15px;
+
+  
+                        /* これを縦中央配置にするため */
+                        display: block;
+                        top: 50%;
+                        position: absolute;
+                        transform: translateY(-50%);
+                    }
+                }
+  
+                .service-img-container-jp {
+                    height: 678px;
+                    width: 50%;
+  
+                    /* imgをセンタリングする*/
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+  
+  
+                    img {
+                      height: 324px;
+                      width: 307px;
+                      margin-left: 240px;
+                    }
+  
+  
+                }
+  
+          }
+      }
+  }
+  
+//Media Queries
+
