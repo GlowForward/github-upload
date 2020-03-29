@@ -106,10 +106,36 @@ section {
 
     .blocks {
       width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-        img {
-          width: 100%;
+        .content {
+          transition: 0.4s;
+
+          img {
+            width: 100%;
+          }
         }
+
+        .para-content {
+            width: 90%;
+            margin: 0 auto;
+
+            h3 {
+              font-size: 1.4vw;
+              text-align: center;
+              font-family: "Verdana";
+            }
+
+            p {
+              font-size: 1.2vw;
+              font-family: "Segoe UI";
+              font-weight: 200;
+            }
+        }
+     
+       
     }
 }
 

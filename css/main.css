@@ -118,10 +118,41 @@ section {
 
 section .blocks {
   width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-section .blocks img {
+section .blocks .content {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+section .blocks .content img {
   width: 100%;
+}
+
+section .blocks .para-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+section .blocks .para-content h3 {
+  font-size: 1.4vw;
+  text-align: center;
+  font-family: "Verdana";
+}
+
+section .blocks .para-content p {
+  font-size: 1.2vw;
+  font-family: "Segoe UI";
+  font-weight: 200;
 }
 
 .services {
