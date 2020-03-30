@@ -242,21 +242,48 @@ section {
 
 footer {
   width: 100%;
-  padding-bottom: 0;
+  padding-bottom: 40px;
 
         .exposures {
-          margin: 40px 0 40px 0;
+          margin-top: 40px;
+          
+          h3 {
+            font-size: 1.4vw;
+            text-align: center;
+            font-family: "Verdana";
+          }
 
           ul {
             display: flex;
             justify-content: center;
             list-style: none;
             padding: 0;
+            margin-bottom: 20px;
 
+              li {
+                  padding: 4px;
 
-          }
-    }
+                  a {
+                     text-decoration: none;
+                      
+                      img {
+                        height: 3.5vw;
+                      }
 
+                      img:hover {
+                        fill: blue;
+                      }
+                  }
+              }
+        }
+     }
+            
+            p {
+              text-align: center;
+              margin: 3px 0;
+              font-size: 1em;
+              color: gray;
+            }
   }
 
 
