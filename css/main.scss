@@ -242,47 +242,23 @@ section {
 
 footer {
   width: 100%;
+  padding-bottom: 0;
 
-    .exposures {
-        text-align: center;
+        .exposures {
+          margin: 40px 0 40px 0;
 
-        .facebook-icon {
-          height: 3em;
-          width: 3em;
-        }
+          ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
 
-        .facebook-icon:hover {
-          opacity: 0.4;
-          transition: 0.2s;
-        }
 
-        .linkedin-icon {
-          height: 3em;
-          width: 3em;
-        }
-
-        .linkedin-icon:hover {
-          opacity: 0.4;
-          transition: 0.2s;
-        }
+          }
     }
 
-    .copyright {
-      text-align: center;
+  }
 
-        p {
-          font-size: 14px;
-          color: rgb(105, 105, 105);
-          margin-bottom: 4px;
-        }
-
-        span {
-          font-size: 14px;
-          color: rgb(105, 105, 105);
-        }
-    }
-
-}
 
 
 // 日本語ページ

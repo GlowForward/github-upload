@@ -258,47 +258,22 @@ section .blocks .para-content p {
 
 footer {
   width: 100%;
+  padding-bottom: 0;
 }
 
 footer .exposures {
-  text-align: center;
+  margin: 40px 0 40px 0;
 }
 
-footer .exposures .facebook-icon {
-  height: 3em;
-  width: 3em;
-}
-
-footer .exposures .facebook-icon:hover {
-  opacity: 0.4;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-footer .exposures .linkedin-icon {
-  height: 3em;
-  width: 3em;
-}
-
-footer .exposures .linkedin-icon:hover {
-  opacity: 0.4;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-footer .copyright {
-  text-align: center;
-}
-
-footer .copyright p {
-  font-size: 14px;
-  color: dimgray;
-  margin-bottom: 4px;
-}
-
-footer .copyright span {
-  font-size: 14px;
-  color: dimgray;
+footer .exposures ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
 .work-jp {
